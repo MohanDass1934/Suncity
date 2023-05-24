@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Home.css">
+	<script src="https://kit.fontawesome.com/5ef3273482.js" crossorigin="anonymous"></script>
+    <title>SunCity Appartments</title>
+</head>
+<body>
+    <header>
+		<h1>SunCity</h1>
+		<nav id="navbar">
+            <a href="#floorplans">Floor Plans</a>
+            <a href="#facilities">Facilities</a>
+            <a href="#price-list">Price List</a>
+            <a href="#Society-review">Society Reviews</a>
+            <a href="#explore">Explore Locality</a>
+            <a href="#projects">Builder</a>
+            <a href="#FAQs">FAQs</a>
+			
+        </nav>
+		
+			<script>
+			window.onscroll = function() {myFunction()};
+			
+			var navbar = document.getElementById("navbar");
+			var sticky = navbar.offsetTop;
+			
+			function myFunction() {
+			  if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+			  } else {
+				navbar.classList.remove("sticky");
+			  }
+			}
+			</script>
+	</header>
+
+	<main>
+		<section class="hero">
+			<h2>SunCity</h2>
+			<p>Center of the City</p>
+			<button>Learn More</button>
+		</section>
+		<div class="photo-album">
+			<div class="image-box"><img src="./image1.jpeg" alt="Photo 1"></div>
+			<div class="image-box"><img src="./image2.jpeg" alt="Photo 2"></div>
+			<div class="image-box"><img src="./image5.jpeg" alt="Photo 4"></div>
+		</div>
+		
+		<section id="floorplans" >
+			<br>
+			<br>
+			<br>
+			<br>
+			<label for="Price"> <u> Floor Plans & Pricing</u></label>
+			<div class="featured">
+				<div class="destination">
+					<h3>1-BHK</h3>
+					<p>Rs.45 Lakhs Onwards*</p>
+					<a href="#">Learn More</a>
+				</div>
+				<div class="destination">
+					<h3>2-BHK</h3>
+					<p>Rs.65 Lakhs Onwards*</p>
+					<a href="#">Learn More</a>
+				</div>
+				<div class="destination">
+					<h3>3-BHK</h3>
+					<p>Rs.45 Lakhs Onwards*</p>
+					<a href="#">Learn More</a>
+				</div>
+			</div>
+		</section>
+		<br>
+		
+		<section >
+			<label for="Sales">Resale Properties in this Project </label>
+
+			<div class="Sales">
+				<Div class="card">
+					<img src="./image7.jpeg" alt="Room Image">
+					<p>₹ 62 L <br>
+						By Owner <br>
+						Posted on 20th Mar, 2023</p>
+						<i class="fa-solid fa-phone"></i>
+				</Div>
+	
+				<Div class="card">
+					<img src="./image8.jpeg" alt="Room Image">
+					<p>₹ 40 L <br>
+						By Owner <br>
+						Posted on 19th feb, 2023</p>
+						<i class="fa-solid fa-phone"></i>
+				</Div>
+	
+				<Div class="card">
+					<img src="./image6.jpeg" alt="Room Image">
+					<p>₹ 62 L <br>
+						By Owner <br>
+						Posted on 16th jan, 2023</p>
+						<i class="fa-solid fa-phone"></i>
+				</Div>
+
+			</div>
+			
+			
+		</section>
+		<br>
+		<section >
+			<label for="Rent">Properties for rent in this project</label>
+		<div class="Rent">
+			<Div class="rent-card">
+				<img src="./image3.jpeg" alt="Room Image">
+				    <p>₹ 62 L <br>
+					By Owner <br>
+					Posted on 20th Mar, 2023</p>
+					<i class="fa-solid fa-phone"></i>
+			</Div>
+		</div>
+		</section>
+		
+		<div id="facilities" class="facilities">
+			<br>
+			<br>
+			<br>
+			<br>
+			<label for="facilities" class="facilities-l"> <u> Top Facilities</u></label>
+			<div>
+				<p  class="pro">SunCity Chennai South presents an exclusive opportunity to own a stunning home
+					 that offers all kinds of amenities and facilities. This includes a swimming pool, pool table,
+					  and easy access to property staff.  It also has a cafeteria, an exclusive offering only for
+					   Lancor Abode Valley residents. SunCity has an excellent combination of comfort
+					    and convenience to suit every requirement as well as need.</p>
+				<div class="icon-box">
+					<span class="icon">
+						<i class="fa-solid fa-person-swimming"></i>
+					</span>
+					<span class="icon">
+						<i class="fa-solid fa-user-shield"></i>
+					</span>
+					<span class="icon">
+						<i class="fa-solid fa-mug-hot"></i>
+					</span>
+					<span class="icon">
+						<i class="fa-solid fa-table-tennis-paddle-ball"></i>
+					</span>
+					<span class="icon">
+						<i class="fa-solid fa-church"></i>	
+					</span>
+					<span class="icon">
+						<i class="fa-solid fa-basketball"></i>	
+					</span>
+					<span class="icon">
+						<i class="fa-solid fa-chess-board"></i>		
+					</span>
+
+				</div>
+				<button class="icon-button" formaction="#"> <u> View Facility Photo </u> <i class="fa-solid fa-arrow-right-long"></i></button>
+			</div>
+		</div>
+		<br>
+		<section id="price-list" class="price-list">
+			<br>
+			<br>
+			<br>
+			<br>
+			<label for="pricelist"> <u> View official price list </u></label>
+			<div class="content">
+				<div class="details">
+					<p>
+						<h2><u>Sun City</u></h2><br>
+						<b>Basic Price Info:</b>
+						BSP:3600/-sq.ft <br>
+						Stamp duty: 7% <br>
+						Registration:1% <br>
+						Coverd Parking charges: 2.5Lacs
+					</p>
+				</div>
+				<div class="texts">
+					<p>
+						<b>Base Rent:</b> This is the rent amount that is charged for the apartment without any additional fees or charges. <br>
+	
+	<b>Square Footage:</b> This refers to the total area of the apartment measured in square feet. <br>
+	
+	<b>Security Deposit:</b> This is a refundable amount of money that is paid by the tenant to the landlord at the start of the lease.
+	 It is held as a guarantee against any damage or unpaid rent that may occur during the lease period. <br>
+	
+	<b>Move-In Costs:</b> This includes all the costs associated with moving into the apartment, such as the first month's
+	 rent, security deposit, and any fees charged by the landlord or property management company. <br>
+	
+	<b>Utilities:</b> This refers to the basic services provided to the apartment, such as electricity, gas, water,
+	 and internet. Some apartments include these costs in the rent, while others require tenants to pay for
+	  them separately. <br>
+	
+	<b>Application Fee:</b> This is a non-refundable fee charged by the landlord or property management company for
+	 processing the tenant's rental application. <br>
+					</p>
+	
+				</div>
+			</div>
+		</section>
+		<section class="Price-Insights ">
+			<label for="price-insights"> <u> Price Insights </u> </label>
+			<p class="pro">For Sun City, Velechery, Chennai.</p>
+			<div>
+				<div class="gape">
+					<p> <i class="fa-solid fa-arrow-down"></i>Property Prices decreased by 4.9% <br>
+                    in Lancor Abode Valley since last one year</p>
+				</div>
+				<div class="gape">
+					<p> <i class="fa-solid fa-arrow-up"></i> Property Prices increased by 1.2% <br>
+                    in Potheri since last one year</p>
+				</div>
+
+			</div>
+		</section>
+		<section class="price-trend">
+			<div class="container">
+				<label class="label">Price Trend & Comparison</label>
+                <div class="buttons">
+					<button class="btn" id="button1"><b>With Locality</b></button>
+                    <button class="btn" id="button2"><b>Similar Societies</b></button>
+                </div>
+				<div id="tableContainer" class="table-container"></div>
+				
+				<table class="price-table" id="table1">
+				<thead>
+					<tr>
+						<th>Locality</th>
+						<th>Avg. Price / Sqft</th>
+						<th>Price Range / Sqft</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Sarathy Nagar</td>
+						<td>₹7,340</td>
+						<td>₹4,750 - ₹11,500</td>
+					</tr>
+					<tr>
+						<td>Bhuvaneshwari Nagar</td>
+						<td>₹5,509</td>
+						<td>₹3,846 - ₹9,336</td>
+					</tr>
+					<tr>
+						<td>Vijay Nagar</td>
+						<td>₹6,976</td>
+						<td>₹4,615 - ₹12,000</td>
+					</tr>
+					<tr>
+						<td>Venkateswara Nagar</td>
+						<td>₹7,063</td>
+						<td>₹4,269 - ₹8,996</td>
+					</tr>
+					<tr>
+						<td>Udhayam Nagar</td>
+						<td>₹7,631</td>
+						<td>₹7,723 - ₹9,655</td>
+					</tr>
+					<tr>
+						<td>Indira Gandhi Nagar</td>
+						<td>₹11,997</td>
+						<td>₹5,512 - ₹16,956</td>
+					</tr>
+					<tr>
+						<td>Baby Nagar</td>
+						<td>₹7,401</td>
+						<td>₹3,913 - ₹11,846</td>
+					</tr>
+
+				</tbody>
+			</table>
+			
+			<table class="price-table" id="table2" style="display: none;">
+				<thead>
+					<tr>
+						<th>Locality</th>
+						<th>Avg. Price / Sqft</th>
+						<th>Price Range / Sqft</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Sarathy Nagar</td>
+						<td>₹7,340</td>
+						<td>₹9,750 - ₹11,500</td>
+					</tr>
+					<tr>
+						<td>Bhuvaneshwari Nagar</td>
+						<td>₹5,509</td>
+						<td>₹4,846 - ₹9,336</td>
+					</tr>
+					<tr>
+						<td>Vijay Nagar</td>
+						<td>₹6,976</td>
+						<td>₹9,615 - ₹12,000</td>
+					</tr>
+					<tr>
+						<td>Venkateswara Nagar</td>
+						<td>₹7,063</td>
+						<td>₹6,269 - ₹8,996</td>
+					</tr>
+					<tr>
+						<td>Udhayam Nagar</td>
+						<td>₹7,631</td>
+						<td>₹8,723 - ₹9,655</td>
+					</tr>
+					
+
+				</tbody>
+			</table>
+			
+		</div>
+		
+	</section>
+	<script>
+		var button1 = document.getElementById("button1");
+		var button2 = document.getElementById("button2");
+		var tableContainer = document.getElementById("tableContainer");
+		var table1 = document.getElementById("table1");
+		var table2 = document.getElementById("table2");
+
+		button1.addEventListener("click", function() {
+			tableContainer.innerHTML = ""; // Clear any existing content
+			tableContainer.appendChild(table1.cloneNode(true));
+			table1.style.display = "table";
+			table2.style.display = "none";
+		});
+		
+		button2.addEventListener("click", function() {
+			tableContainer.innerHTML = ""; // Clear any existing content
+			tableContainer.appendChild(table2.cloneNode(true));
+			table1.style.display = "none";
+			table2.style.display = "table";
+		});
+		</script>
+		<section id="Society-review" class="Society-review">
+			<br>
+			<br>
+			<br>
+			<br>
+			<label for="Society"><u> Society Reviews. </u></label>
+			<div class="Society-box">
+				<div class="Society-rating">
+					<p><b style="font-size: larger;">4.5 <small>/5</small></b></p>
+					<div class="rating">
+						<i class="fa-solid fa-star "></i>
+						<i class="fa-solid fa-star "></i>
+						<i class="fa-solid fa-star "></i>
+						<i class="fa-solid fa-star "></i>
+						<i class="fa-solid fa-star "></i>
+					</div>  
+					<div class="rate"><div class="rate1"></div></div>
+					<div class="rate"><div class="rate2"></div></div>
+					<div class="rate"><div class="rate3"></div></div>
+					<div class="rate"><div class="rate4"></div></div>
+					<div class="rate"><div class="rate5"></div></div>
+					
+				</div>
+				<div class="rating-text">
+				
+				<p>The moment I stepped into Suncity Apartments,
+					I was impressed by the elegant and well-maintained
+					surroundings. The apartment complex boasts beautiful
+					landscaping and a peaceful ambiance that immediately
+					put me at ease.</p>
+					<p>
+						The apartment itself was nothing short of stunning.
+						The interior design was modern and tasteful, with
+						high-quality furnishings and attention to detail.
+						The spacious living area provided a comfortable 
+						space to relax and unwind after a long day.
+					</p>
+					<p>
+						The amenities at Suncity Apartments were truly top-notch.
+						The swimming pool and fitness center were well-equipped 
+						and meticulously maintained. I enjoyed spending my mornings
+						taking a refreshing swim and working out in the 
+						state-of-the-art gym.
+						<br>
+						The staff at Suncity Apartments went above and beyond to ensure my stay was exceptional.
+						They were friendly, professional, and always ready to assist with any inquiries or requests.
+						It was evident that they took great pride in providing exceptional service to their residents.
+						<br>
+						The location of Suncity Apartments was another standout
+						feature. Situated in a prime area, it offered convenient 
+						access to shopping centers, restaurants, and other amenities.
+						Additionally, the peaceful surroundings made it a tranquil 
+						oasis amidst the hustle and bustle of the city.
+					</p>
+					
+				</div>
+				
+			</div>
+		</section>
+		<section id="explore" class="explore">
+			<br>
+			<br>
+			<br>
+			<br>
+            <label for="explore"> <u> Explore Velachery</u></label>
+			<div class="advantage">
+					<table>
+						<tr>
+							<td> The Velachery main road on the south, connects the fastest growing suburbs of south 
+								Chennai and Mount Road (Anna Salai) at Guindy via Velachery. A section of this road 
+								connects Guindy and Velachery and is home to some of the oldest localities.</td>
+						</tr>
+						<tr><td>
+						 The 100 ft bypass road connects Guindy on the north west.
+						</td></tr>
+						<tr><td>
+						 	The Taramani link road on the north east connects Velachery with Rajiv Gandhi Salai (OMR).
+						</td></tr>
+						<tr><td>
+							The Jawaharlal Nehru Salai also called the 100 ft road or Inner Ring Road, Chennai passes along 
+							the MRTS line and connects near the airport the GST road, an arterial road in Chennai
+						</td></tr>
+						<tr><td>
+						 The Taramani Link Road in Velachery also connects to MGR Salai, an arterial road that connects to OMR
+						</td></tr>
+						<tr><td>
+						Velachery was under the Taluk of Mambalam-Guindy in Chennai District. In recent Mambalam-Guindy Taluk has
+						been divided Velachery got their own Taluk named as Velachery Taluk. Dandeeswarar Temple is the oldest
+						temple in the locality.
+						</td></tr>
+					</table>
+				</div>
+				<hr>
+		</section>
+		<section id="projects" class="projects">
+			<br>
+			<br>
+			<br>
+			<br>
+			<label for="projects"> <u> Projects by KG Builders</u> </label>
+			<p class="project-his">We established our roots in the city in 1980 and have absorbed its culture to create strong values and virtues. KG has built an enduring relationship with the people of Chennai, through more than 180 projects that are delighting more than 8000 homeowners and corporate clients. We at KG enrich homes with passion and expertise.
+
+				With over 8 million sq. ft. of development in the pipeline and another 10 million sq. ft. planned to be developed over the next 3-5 years across the residential, commercial and hospitality space in Chennai, we are here for good and feel great to be here. KG will soon expand its presence with a spectrum of realty projects across Hyderabad and Bengaluru.
+				
+				We at KG have always believed that the key to growth lies in harmonious relationships. Our special bond with Chennai has carried us through a successful journey of 43 years. And many more to come.</p>
+		</section>
+		<section  id="FAQs" class="questions">
+			<br>
+			<br>
+			<br>
+			<br>
+			<label for="FAQs"> <u> FAQs. </u></label>
+			<table class="question-table">
+				<tr>
+					<td> <b> Can I book the shuttle from the airport
+						 to the hotel and charge it to my room? </b></td>
+						</tr>
+					<tr><td>You can book a cab from the hotel itself.
+						 Just tell them your arrival time.</td></tr>
+				
+				<tr>
+					<td> <b> Are smoking rooms available? </b></td>
+				</tr>
+				<tr>	<td>Yes</td> </tr>
+				
+				<tr>
+					<td> <b> I was staying in this hotel for 5 days, the music is too much noisy, 
+						even I told the management two times to reduce the sound. </b></td>
+					</tr>
+				<tr>	<td>The only time there is music is on weekends and might travel upward
+						 and disturb a light sleeper. Otherwise its a quiet place?</td> </tr>
+				
+				<tr>
+					<td><b> Do the deluxe rooms have a bathtub? </b></td>
+				</tr>
+					<tr><td>Yes:)</td></tr>
+				
+				<tr>
+					<td><b> does this hotel have a hair salon, where I can get a color? </b></td>
+				</tr>
+					<tr><td>No to my knowledge</td></tr>
+				
+			</table>
+
+		</section>
+		<hr>
+		<section>
+
+		</section>
+	</main>
+	<footer>
+		<div class="footer-box">
+			<div class="footer1">
+				<table>
+					<tr><th>Projects</th></tr>
+					<tr><td><a href="#">Mobile Apps</a></td></tr>
+					<tr><td><a href="#">Our Services</a></td></tr>
+					<tr><td><a href="#">Price Trends</a></td></tr>
+					<tr><td><a href="#">Post Your Property</a></td></tr>
+					<tr><td><a href="#">Builder in india</a></td></tr>
+					<tr><td><a href="#">Area Converter</a></td></tr>
+					<tr><td><a href="#">Article</a></td></tr>
+					<tr><td><a href="#">Customer Services</a></td></tr>
+				</table>
+			</div>
+			<div class="footer2">
+				<table>
+					<tr><th>Company</th></tr>
+					<tr><td><a href="#">About Us</a></td></tr>
+					<tr><td><a href="#">Contact Us</a></td></tr>
+					<tr><td><a href="#">Careers With Us</a></td></tr>
+					<tr><td><a href="#">Trem & Conditions</a></td></tr>
+					<tr><td><a href="#">Request Info</a></td></tr>
+					<tr><td><a href="#">FeedBack</a></td></tr>
+					<tr><td><a href="#">Report a Problem</a></td></tr>
+					<tr><td><a href="#">Testimonials</a></td></tr>
+					<tr><td><a href="#">Privacy Policy</a></td></tr>
+					<tr><td><a href="#">Summons/Notices</a></td></tr>
+					<tr><td><a href="#">Grievances</a></td></tr>
+					<tr><td><a href="#">Safety Guide</a></td></tr>
+				</table>
+
+			</div>
+			<div class="footer3">
+				<h3>Contact Us</h3>
+					<p><b>Toll Free - 6374057479</b></p>
+					<p>Monday-Saturday(9:00 to 11:00 IST)</p>
+					<p><b>Email-smohandass1934@gmail.com</b></p>
+					<p><b>Connect With Us</b></p>
+					<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+					<a href="#"><i class="fa-brands fa-youtube"></i></a>
+					<a href="#"><i class="fa-brands fa-twitter"></i></a>
+					<a href="#"><i class="fa-brands fa-instagram"></i></a>
+			</div>
+		</div>
+		<p>&copy; 2023 My Website. All rights reserved.</p>
+	</footer>
+</body>
+</html>
